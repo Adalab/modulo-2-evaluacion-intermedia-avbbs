@@ -9,27 +9,41 @@
     <title>Evaluación Intermedia</title>
 </head>
 
-<body>
-    <header class="header">
-        <h1>Los anillos de poder</h1>
-    </header>
+<body class="body">
+    <section class="section-img">
+        <img src="./images/Captura.JPG" alt="Imagen Anillos del poder" class="image">
+    </section>
     <main class="main">
-        <p>La Tierra Media está en guerra! En ella lucharán razas leales a Sauron contra otras bondadosas que no
-            quieren que el mal reine sobre sus tierras.</p>
-        <p>Eres un jugador del ejército del bien, no olvides tu misión de ganar la batalla.</p>
-        <form action="">
-            <select class="js-select">
+        <section class="section-text">
+            <small class="section-text__span">Juego</small>
+            <h1 class="section-text__title">Los anillos de poder</h1>
+            <p class="section-text__text1">La Tierra Media está en guerra! En ella lucharán razas leales a Sauron contra
+                otras bondadosas que no
+                quieren que el mal reine sobre sus tierras.</p>
+            <p class="section-text__text2">Eres un jugador del ejército del bien, no olvides tu misión de ganar la
+                batalla.</p>
+        </section>
+        <form action="" class="form">
+            <select class="select js-select">
+                <option>Seleccione la raza con que vas a jugar</option>
                 <option value="1">Raza 1: Pelosos con fuerza</option>
                 <option value="2">Raza 2: Sureños buenos con fuerza</option>
                 <option value="3">Raza 3: Enanos con fuerza</option>
                 <option value="4">Raza 4: Númenóreanos con fuerza</option>
                 <option value="5">Raza 5: Elfos con fuerza</option>
             </select>
-            <button class="js-btn">Batalla</button>
+            <button class="btn js-btn">Batalla</button>
         </form>
-        <div>
-            <p class="js-textResult">¡Comienza la batalla!</p>
-        </div>
+        <section class="section-game">
+            <div class="container">
+                <p class="js-textResult">¡Comienza la batalla!</p>
+            </div>
+            <h2>Puntuaciones</h2>
+        </section>
+        <section class="section-result">
+            <p class="js-player"></p>
+            <p class="js-pc"></p>
+        </section>
     </main>
     <script src="./js/main.js"></script>
 </body>

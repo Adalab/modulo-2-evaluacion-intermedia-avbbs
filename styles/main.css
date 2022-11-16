@@ -1,11 +1,88 @@
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-transform: uppercase;
+.body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 1em;
 }
-.main{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image {
+  width: 250px;
+  height: 500px;
+}
+.section-text {
+  display: flex;
+  width: 28.2em;
+  flex-direction: column;
+  padding-left: 2em;
+  padding-top: 0.8em;
+  line-height: 2em;
+}
+.section-text__span {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.section-text__title {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(105, 8, 8);
+  margin-bottom: 0.5em;
+}
+.section-text__text1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(182, 171, 171);
+  line-height: 1.2em;
+}
+.section-text__text2 {
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 1.2em;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.select {
+  width: 21rem;
+  padding: 0.8em;
+  border: solid 3px rgb(196, 190, 190);
+  margin-right: 1px;
+}
+.btn {
+  padding: 0.8em 1.2em 0.8em 1.2em;
+  background-color: rgb(104, 8, 8);
+  color: white;
+  border-style: none;
+  border-radius: 7px;
+}
+.section-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 24em;
+  height: 2.2em;
+  background-color: rgb(211, 146, 146);
+  margin-top: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+}
+.section-result {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  color: rgb(172, 166, 166);
+}
+.hidden{
+  display: none;
 }
